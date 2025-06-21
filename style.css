@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap');
+*{
+	padding:0;
+	margin:0;
+	background-color: #F1F1F2;
+}
+.main h3{
+	color:#1995AD;
+	font-family: "Press Start 2P";
+
+}
+.main2 h3{
+	color: #1995AD;
+	font-family: "Edu NSW ACT Cursive";
+}
+.nav-bar{
+	position: relative;
+	max-width:87rem;
+	width:100%;
+	padding:2rem;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.middle{
+	text-align:center;
+}
+.mode-select {
+  margin: 20px;
+}
+.mode-select button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 25px;
+  color:black;
+  border: 2px solid navy;
+  transition: 0.5s;
+  border-radius: 13px;
+  color: #1995AD;
+}
+.mode-select button:hover{
+	background-color: black;
+	color: white;
+
+}
+#boar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+.square {
+  width: 90px;
+  height: 90px;
+  background-color: #A1D6E2;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.square:hover {
+  background-color: #e0e0e0;
+}
+.square.X {
+  color: darkred;
+}
+.square.O {
+  color: cyan;
+}
+.winn {
+  background-color: red;
+}
+#mess {
+  margin: 20px;
+  font-size: 33px;
+  font-weight: bold;
+  color: #1995AD;
+}
+#res {
+  margin: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+#res{
+	border: 1px solid navy;
+	font-size: 25px;
+	border-radius: 13px;
+	transition: 0.5s;
+	color: #1995AD;
+}
+#res:hover{
+	background-color: black;
+	color: white;
+
+}
+.condition h2{
+	font-size: 22px;
+	color: #1995AD;
+	text-align: center;
+
+}
+.condition h3{
+	font-size: 20px;
+	color:#1995AD;
+	text-align: center;
+}
